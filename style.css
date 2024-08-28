@@ -1,0 +1,135 @@
+ .grid-container {
+    background-color: rgb(211, 234, 244);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 20px;
+    height: 90vh;
+ }
+
+ #box-1 {
+    border: solid 3px rgb(248, 243, 233);
+    background-color: rgb(89, 181, 217);
+    grid-row-start: 1;
+    grid-row-end: 5;
+ }
+
+ #box-2 {
+   background-color: white;
+    border: solid 3px rgb(248, 243, 233);
+    grid-column-start: 2;
+    grid-column-end: 5;
+    height: 300px;
+ }
+
+ #box-3 {
+    border: solid 3px rgb(248, 243, 233);
+    border-left: 5px solid yellow;
+    background-color: white;
+ }
+
+ #box-4 {
+    border: solid 3px rgb(248, 243, 233);
+    border-left:  solid yellow;
+    background-color: white;
+
+ }
+
+ #box-5 {
+    border: solid 3px rgb(248, 243, 233);
+    border-left: 5px solid yellow;
+    background-color: white;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-row-start: 2;
+ }
+
+ #box-6 {
+    border: solid 3px rgb(248, 243, 233);
+    border-left: 5px solid yellow;
+    background-color: white;
+
+ }
+
+ #box-7 {
+    border: solid 3px rgb(248, 243, 233);
+    border-left: 5px solid yellow;
+    background-color: white;
+ }
+
+ #box-8 {
+   border: solid 3px rgb(248, 243, 233);
+    border-left: 5px solid yellow;
+    background-color: white;
+ }
+
+ #box-9 {
+    border: solid 3px rgb(248, 243, 233);
+    border-left: 5px solid yellow;
+    background-color: white;
+ }
+
+ #box-10 {
+    border: solid 3px rgb(248, 243, 233);
+    border-left: 5px solid yellow;
+    background-color: white;
+ }
+
+ nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ img,.searchbar {
+    width: 10%;
+    height: 10%;
+ }
+ 
+ #home {
+    display: flex;
+ }
+
+ .box {
+    border-radius: 20px;
+    padding-left: 14px;
+
+ }
+
+ .searchbar {
+    padding-left: 200px;
+    border-radius: 20px;
+    border: color purple;
+ }
+
+ .button {
+    display: flex;
+    margin-left: 80%;
+    gap: 20px;
+    padding-bottom: 500px;
+    
+ }
+
+ .btn {
+    padding-left: 6px;
+    border-radius: 10px;
+    background-color: rgb(79, 177, 215);
+    padding-left: 27px;
+    text-align: center;
+}
+ .profile,.message,.history,.taxt,.communiti,.setting,.super{
+   display: flex;
+ }
+ .navbox{
+   height: 20px;
+ }
+ .tegan,.morgan,.kendail,.alex{
+    display: flex;
+ }
+ #bell{
+   height: 10%;
+   width: 10%;
+ }
+ 
+ 
